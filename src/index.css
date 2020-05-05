@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  #app-container .tasks-container {
+    background: #666;
+    width: 100%;
+    height: 100vh;
+    min-width: 500px;
+    padding: 0 20px;
+    color: #ddd;
+    font-size: 20px;
+    overflow-y: auto;
+  }
+  
+  .tasks-container h2 {
+    color: #aaa;
+    font-size: 26px;
+  }
+  
+  .tasks-container h3 {
+    color: lightseagreen;
+    font-size: 26px;
+  }
+  
+  .tasks-container h4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tasks-container li {
+    border-bottom: 1px solid #888;
+    line-height: 2;
+  }
+  
+  .tasks-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  }
+  
+  button {
+    background: #444;
+      border: 1px outset #777;
+      border-radius: 4px;
+      color: #aaa;
+      cursor: pointer;
+      font-size: 14px;
+  }
+  
+  button:active {
+    border: 1px inset #777;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
